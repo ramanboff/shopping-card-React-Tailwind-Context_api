@@ -5,7 +5,7 @@ const ShoppingCard = ({ product }) => {
       <div className="space-y-2 p-2 text-gray-800">
         <h4 className="bg-green-400 px-2 rounded w-fit">{product.name}</h4>
         <h5 className="bg-yellow-300 px-2 wonded w-fit">$ {product.price}</h5>
-        <button className="bg-purple-400 rounded px-2">Add to card</button>
+        <button className="bg-purple-400 rounded px-2 hover:text-white hover:bg-gray-700 duration-200">Add to card</button>
       </div>
     </div>
   );
