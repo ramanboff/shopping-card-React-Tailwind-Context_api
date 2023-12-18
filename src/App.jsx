@@ -1,13 +1,15 @@
 import Container from "./Components/Container";
-import HomeScreen from "./screens/HomeScreen";
+
 
 function App() {
   return (
-    <Container>
-      <div className="">
-        <HomeScreen/>
+
+      <Container>
+        <div>
+
       </div>
-    </Container>
+      </Container>
+
   );
 }
 
