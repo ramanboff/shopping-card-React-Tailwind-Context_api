@@ -1,4 +1,5 @@
-import Container from "./Components/Container";
+import Container from "./Container";
+import HomeScreen from "./Screens/HomeScreen";
 
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
 
       <Container>
         <div>
-
+<HomeScreen/>
       </div>
       </Container>
 
